@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <script src="login.1.js"></script>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Page Title</title>
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="/login.css">
+
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-app.js"></script>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-auth.js"></script>
+
+  <script src="signup.js"></script>
+</head>
+
+<body>
+  <div class="topnav">
+    <a class="active" href="/index.html">Home</a>
+    <a href="/Pages/About-Us.html">About Us</a>
+    <a href="/Pages/Contact.html">Contact</a>
+    <a href="/Pages/Services/Internships-Volunteering.html">Internships and Volunteering</a>
+    <a href="/Pages/Colleges.html">Colleges</a>
+    <a href="login.html">Login</a>
+  </div>
+
+  <div class="container">
+    
+    <div class="row">
+
+      <div class="col-sm-12">
+        <div class="main-div" id="signup_div">
+            <h3>Sign Up for Unavigate</h3>
+            <input type="email" placeholder="Email..." id="email_field" />
+            <input type="password" placeholder="Password..." id="password_field" />
+            <button onClick="signup()">Sign Up</button>
+            <a href="login.html">   
+                <button>Return to Login</button>
+            </a>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/login.css">
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-analytics.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-auth.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyBpTCQgjfiLUHJOcj46oSc9yKhL1ReprbA",
+    authDomain: "collegehighschoolappdemo.firebaseapp.com",
+    databaseURL: "https://collegehighschoolappdemo.firebaseio.com",
+    projectId: "collegehighschoolappdemo",
+    storageBucket: "collegehighschoolappdemo.appspot.com",
+    messagingSenderId: "41619628396",
+    appId: "1:41619628396:web:63219fa9fe3c6891475349",
+    measurementId: "G-8D6X45S14T"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+
+<script src="signup.js"></script>
+
+</body>
+
+
+
+</html>
